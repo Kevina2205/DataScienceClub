@@ -7,14 +7,16 @@ body {
   margin: 0px;
 }
 header {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  align-items: center;
+  height: 50px;
 }
 .logo {
-  height: 80px;
-  margin-left: 10px;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .listmenu {
   display: flex;
@@ -88,4 +90,44 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+.articleHeaders {
+  background-color: transparent;
+  position: relative;
+}
+
+.aboutHeader {
+  position: fixed;
+  background-color: white;
+  width: 1520px;
+}
+
+.next-prev-navigation {
+  position: absolute;
+  margin: 0;
+}
+
+.picture {
+  align-content: flex-start;
+  text-align: left;
+}
+
+.aboutUsPage {
+  height: 1200px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.visiMisi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.visi {
+  width: 40%;
+}
+.misi {
+  width: 40%;
 }
