@@ -78,11 +78,13 @@ header {
   color: white;
   background-color: red;
   border-color: red;
-  margin: 0;
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
 }
 footer {
   position: fixed;
@@ -100,7 +102,7 @@ footer {
 .aboutHeader {
   position: fixed;
   background-color: white;
-  width: 1520px;
+  width: 100%;
 }
 
 .next-prev-navigation {
